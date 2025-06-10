@@ -1,22 +1,23 @@
-// const numberOfFilms = prompt ('Сколько фильмов вы уже посмотрели?', '');
+const numberOfFilms = prompt ('Сколько фильмов вы уже посмотрели?', '');
 
-// const personalMovieDB = {
-//     count: numberOfFilms,
-//     movies: {},
-//     actors: {},
-//     deners: [],
-//     privat: false
-// }; //создан объект и в нем различные свойства 
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    deners: [],
+    privat: false
+}; //создан объект и в нем различные свойства 
 
-// const a = prompt ('Один из последних просмотренных фильмов?', ''),
-//       b = prompt ('На сколько оцените его?', ''),
-//       c = prompt ('Один из последних просмотренных фильмов?', ''),
-//       d = prompt ('На сколько оцените его?', '');
+for(let i = 0; i < numberOfFilms; i++){
+    const a = prompt ('Один из последних просмотренных фильмов?', ''),
+          b = prompt ('На сколько оцените его?', '');
 
-// personalMovieDB.movies[a] = b; 
-// personalMovieDB.movies[c] = d;
+personalMovieDB.movies[a] = b;
+}
 
-// console.log(personalMovieDB); 
+ 
+
+console.log(personalMovieDB); 
 
 
 // if (4 == 9) {
@@ -113,7 +114,21 @@
 // } // цикл выводит от 50 до 55
 
 
+// for (let i = 2; i <= 16; i++) {
+//     if (i % 2 === 0) {
+//         continue;
+//     } else {
+//         console.log(i);
+//     }
+// } //?????????????????????????
 
+// let i = 2;
+// while (i <= 16) {
+//     console.log (i) ;
+//     if (i % 2 === 0)
+//         i++
+
+// } // БЕСКОНЕЧНЫЙ ЦИКЛ
 
 // let num = 50;
 // do {
@@ -141,71 +156,3 @@
 //     if (i % 2 == 0)
 //     console.log (i);
 // }
-
-
-
-
-// for (let i = 2; i <= 16; i++) {
-//     if (i % 2 === 0) {
-//         continue;
-//     } else {
-//         console.log(i);
-//     }
-// } //цикл, выводящий от 3 до 15 нечетные
-
-// let i = 2;
-// while (i <= 16){
-//     if (i % 2 === 0) {
-//     i++
-//     continue;
-// } else { 
-//     console.log(i)
-// }    i++
-// } //цикл, выводящий от 3 до 15 нечетные через while/ ВЕРНО
-
-// let i = 2;
-// while (i <= 16) {
-//     console.log (i) ;
-//     if (i % 2 === 0)
-//         i++
-
-// } // БЕСКОНЕЧНЫЙ ЦИКЛ!!!/ НЕВЕРНО
-
-
-//1 задача
-for (let i = 5; i < 11; i++) {
-    console.log (i);
-// }
-// //2 задача
-// for (let i = 20; i >= 10; i--) {
-//     if (i === 12) { 
-//         break;
-//     }
-//     console.log (i); 
-// }
-// //3 задача 
-// for (i = 2; i <= 10; i++) {
-//     if (i % 2 == 0)
-//     console.log (i);
-// }
-// // 4 задача 
-// let i = 2;
-// while (i <= 16){
-//     if (i % 2 === 0) {
-//     i++
-//     continue;
-// } else { 
-//     console.log(i)
-// }    i++ }
-// 5 задача
-
-
-
-// let arr = [5,6,7,8,9,10];
-
-
-// for (i = 0; i < arr.length; i++)
-//     { console.log (arr[i]) }
-
-
-let arr = [10,];
